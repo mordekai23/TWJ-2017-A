@@ -31,7 +31,27 @@ Las herramientas que vamos a usar son:
 
 ![Imagen de Github](https://help.github.com/assets/images/site/be-social.gif)
 
-## Header 2
+## Codigo
+Para utilizar codigo necesitamos 3 tildes al reves ``` tsanto a al inicio como al final 
+del codigo que vamos a escribir
+
+String hola = "Hola Mundo"
+
+```
+>> sails new Aplicacion
+>> cd Aplicacion
+>> sails lift
+2
+
+```
+
+Escogemos la opcion 2 y damos enter
+
+
+```javascript
+
+var a = 5
+```
 
 ### h3
 
