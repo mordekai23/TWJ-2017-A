@@ -2,90 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a0ac94-5348-48b4-a9c8-0112ce87e3e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02 Javascript/bucles/bucles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02 Javascript/sentencias de control/sentencias de control.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/.sailsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/Comando Sails.MD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/controllers/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/controllers/CasaController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/controllers/EdificioController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/controllers/UsuarioController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/models/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/models/Casa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/models/Edificio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/models/Usuario.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/policies/sessionAuth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/badRequest.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/created.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/forbidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/notFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/ok.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/responses/serverError.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/api/services/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/images/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/js/dependencies/sails.io.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/styles/importer.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/assets/templates/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/comandos Docker.MD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/blueprints.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/connections.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/cors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/csrf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/env/development.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/env/production.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/globals.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/http.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/i18n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/locales/_README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/locales/de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/locales/en.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/locales/es.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/locales/fr.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/log.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/models.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/policies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/routes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/session.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/sockets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/config/views.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/clean.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/coffee.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/cssmin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/jst.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/sails-linker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/uglify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/config/watch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/pipeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/build.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/buildProd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/compileAssets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/linkAssets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/linkAssetsBuild.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/linkAssetsBuildProd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/prod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/tasks/register/syncAssets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/views/403.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/views/404.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/views/500.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/views/homepage.ejs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Aplicacion1/views/layout.ejs" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02 Javascript/funciones.js" afterPath="$PROJECT_DIR$/02 Javascript/funciones/funciones.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/02 Javascript/variables.js" afterPath="$PROJECT_DIR$/02 Javascript/variables/variables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02 Javascript/fat arrow function/fat arrow function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02 Javascript/template strings/template string.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02 Javascript/app.js" afterPath="$PROJECT_DIR$/02 Javascript/app.js" />
     </list>
@@ -146,12 +64,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02 Javascript/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="370">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template string.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02 Javascript/template strings/template string.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fat arrow function.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02 Javascript/fat arrow function/fat arrow function.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,7 +130,9 @@
         <option value="$PROJECT_DIR$/Comando npm.MD" />
         <option value="$PROJECT_DIR$/02 Javascript/bucles/bucles.js" />
         <option value="$PROJECT_DIR$/02 Javascript/sentencias de control/sentencias de control.js" />
+        <option value="$PROJECT_DIR$/02 Javascript/fat arrow function/fat arrow function.js" />
         <option value="$PROJECT_DIR$/02 Javascript/app.js" />
+        <option value="$PROJECT_DIR$/02 Javascript/template strings/template string.js" />
       </list>
     </option>
   </component>
@@ -247,24 +191,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="02 Javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWJ-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWJ-2017-A" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02 Javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="variables" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,12 +322,12 @@
       <updated>1493231063918</updated>
       <workItem from="1493231065141" duration="3211000" />
       <workItem from="1494360372650" duration="498000" />
-      <workItem from="1494361179796" duration="3095000" />
+      <workItem from="1494361179796" duration="3343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6804000" />
+    <option name="totallyTimeSpent" value="7052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="930" y="124" width="1313" height="1000" extended-state="0" />
@@ -541,11 +467,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02 Javascript/app.js">
+    <entry file="file://$PROJECT_DIR$/02 Javascript/fat arrow function/fat arrow function.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Javascript/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Javascript/template strings/template string.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
