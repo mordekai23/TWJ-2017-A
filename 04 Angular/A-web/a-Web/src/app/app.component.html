@@ -18,3 +18,92 @@ NO HACER ESTO
 <a [href]="url">
   <img src="http://angular.png" alt="Logo Angular">
 </a>
+
+<h2>Property Binding</h2>
+
+<h3>Primera forma con llaves dobles </h3>
+<p>{{parrafo}}</p>
+<h3>Segunda forma con []</h3>
+
+<p [style.color]="'white'"
+   [style.background-color]="background"
+   [innerText]="parrafo"></p>
+
+<input type="text" [value]="parrafo">
+
+<p>Mantiene sincronizadas las variables
+  del componente en el html</p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+SI HACER ESTO
+<p>Gracias por visitarnos {{usuario.nobre}} {{usuario.apellido}}</p>
+
+NO HACER ESTO
+<h3>Desarrollado por
+
+  {{
+  saludar(usuario.nombre,usuario.apellido)}}
+
+</h3>
+
+NO HACER ESTO
+<h3>{{usuario.nombre +" " + usuario.apellido}}
+</h3>
+
+<!-- no usar : <a href="{{url}}"> -->
+<a [href]="url">
+  <img [src]="src" alt="Logo Angular">
+</a>
+
+<style>
+  p{
+    border:10px;
+    border-style:solid;
+    border-color: #80c2ff;
+  }
+  h1{
+
+  }
+  h2{
+
+  }
+  #verde{
+    border-color: greenyellow;
+  }
+  .rojo{
+
+  }
+</style>
+
+
+<p id="verde">Hola verde</p>
+<h1 class="rojo">Hola</h1>
+<h2>Hola</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
