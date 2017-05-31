@@ -1,3 +1,37 @@
-<p>
-  componentes works!
-</p>
+<div class="container">
+  <br>
+  <!-- #nombreEtiqueta= guarda la variable
+<input placeholder=" Ingrese Texto" type="text" [value]="nombre" #nombreEtiqueta>
+Banana BoxModel[()]=Directiva (prop, etiqueta)--
+  <input placeholder=" Ingrese Texto" type="text" [(ngModel)]="nombre">
+  {{nombre}}
+  <img [src]="nombre" alt="nombre ">
+  <br>
+  <br>
+ <!--Vista al componente--
+  <button class="btn btn-primary" (click)="cambiarNombre()">Cambiar Valor</button>
+
+  <button (blur) ="CambiarOtroNombre()">Click</button>
+  *ngFor=una directiva que recorre un arreglo
+  <h1 (click)="CambiarNombreInput(nombreEtiqueta)">Cambio de nuevo</h1>-->
+  <h2>Usuarios Conectados</h2>
+  <div class="row" >
+    <div class="col-sm-4" *ngFor="let usuario of arregloUsuarios">
+      <div class="card" style="width: 20rem;">
+        <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+        <div class="card-block">
+          <h4 class="card-title">{{usuario.nombre}}</h4>
+          <p class="card-text">Nombre+Apellido</p>
+          <a href="#" class="btn btn-primary btn-block">GOOOOOOLLLLLLL rm!!!!!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--let nueva variable
+  of :de-->
+  <div>
+    <ul>
+      <li *ngFor="let usuario of arregloUsuarios">{{usuario.nombre}}</li>
+    </ul>
+  </div>
+</div>

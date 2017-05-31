@@ -1,48 +1,46 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'twj-raiz',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css']
 })
-export class AppComponent {
-  usuario:UsuarioInt = {
-    nombre:"",
-    apellido:"Eguez"
-  };
-  parrafo:string = "";
+export class InicioComponent implements OnInit {
+  nombre: string = "Evelyn";
+  arregloUsuarios = [{
+    nombre: "Eveeee",
+    apellido: "Regalado",
+    conectado: true
+  },
+    {
+      nombre: "Brenda",
+      apellido: "Ximena",
+      conectado: true
+    },
+    {
+      nombre: "Michel",
+      apellido: "Blabla",
+      conectado: true
+    }]
 
-  url:string="https://angular.io";
-  src:string="https://angular.io/resources/images/logos/angular/angular.png"
-
-
-
-
-  constructor(){
-    this.usuario.nombre = "Adrian";
-    this.parrafo = "Mi mama me mima";
-
-    setTimeout(()=>{
-      this.usuario.nombre = "Vicente"
-
-    },3000);
+  constructor() {
   }
 
-  holaMundo(){
-    console.log("Hola mundo");
+  ngOnInit() {
   }
 
-
-
-  saludar(nombre:string,
-          apellido?:string):string{
-    return `Hola ${nombre} ${apellido}`;
+  cambiarNombre(): void {
+    this.nombre = "Brenda";
   }
 
-}
+  CambiarOtroNombre() {
+    this.nombre = "Eve";
+  }
 
-
-interface UsuarioInt{
-  nombre:string,
-  apellido:string
+  CambiarNombreInput(nombreEtiqueta) {
+    console.log(nombreEtiqueta.value);
+    console.log(nombreEtiqueta.type);
+    console.log(nombreEtiqueta.placeholder);
+    this.nombre = nombreEtiqueta.value;
+  }
 }
