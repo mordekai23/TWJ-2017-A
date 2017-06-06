@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="/04-Angular/A-Web/src/assets/Bootstrap/css/bootstrap.css">
 <div class="container">
 
   <h1>Bienvenidos</h1>
@@ -23,14 +23,34 @@
 
   <h2>Planetas de Star Wars</h2>
   <br>
-
+  <img src="/04-Angular/A-Web/src/assets/img/Alderaan.jpg" alt="">
   <button class="btn btn-outline-success" (click)="cargarPlanetas()">Cargar Planetas</button>
 
-  <div>
-    <ul *ngFor="let planeta of planetas">
-        <li>{{planeta.name}}</li>
-    </ul>
+  <div class="row">
+    <div *ngFor="let planeta of planetas">
+      <div class="col-sm-4">
+        <div class="card" style="width: 20rem;">
+          <div class="card-block">
+            <img src="/assets/img/{{planeta.name}}.jpg" alt="" width="200" height="200">
+            <li>Nombre: {{planeta.name}}</li>
+            <li>Periodo de Rotacion: {{planeta.rotation_period}}</li>
+            <li>Periodo orbital{{planeta.orbital_period}}</li>
+            <li>Diametro: {{planeta.diameter}}</li>
+            <li>Clima:{{planeta.climate}}</li>
+            <li>Gravedad: {{planeta.gravity}}</li>
+            <li>Terreno: {{planeta.terrain}}</li>
+            <li>Superficie del agua: {{planeta.surface_water}}</li>
+            <li>Poblacion: {{planeta.population}}</li>
+            <li>Creado: {{planeta.created}}</li>
+            <li>Editado: {{planeta.edited}}</li>
+            <li>URL: <a href="{{planeta.url}}" >{{planeta.url}}</a></li>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+
 
 
 <!--

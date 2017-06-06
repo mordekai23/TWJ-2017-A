@@ -11,15 +11,15 @@ export class InicioComponent implements OnInit {
 
   nombre: string = "Adrian";
 
-  planetas : PlanetaStarWars[] =[];
+  planetas : PlanetaStarWars;
 
 
   //command + a  y luego command command+alt+l
 
   arregloUsuarios = [
     {
-      nombre: "Adrian",
-      apellido: "Eguez",
+      nombre: "Danilo",
+      apellido: "Nieto",
       conectado:true
     }, {
       nombre: "Mashi",
@@ -35,6 +35,8 @@ export class InicioComponent implements OnInit {
       conectado:true
     }]
 
+
+
   constructor(private _http:Http) {
     //Inicia la clase
     //PERO EL COMPONENTE NO ESTA LISTO!!!!
@@ -46,9 +48,7 @@ export class InicioComponent implements OnInit {
 
   cambiarNombre(): void {
     console.log("Entro");
-
     this.nombre = "Rafico a Lenin";
-
   }
 
   cambiarOtroNombre() {
@@ -59,8 +59,6 @@ export class InicioComponent implements OnInit {
     console.log(nombreEtiqueta.value);
     console.log(nombreEtiqueta.type);
     console.log(nombreEtiqueta.placeholder);
-
-
     this.nombre = nombreEtiqueta.value;
 
   }
@@ -72,17 +70,10 @@ export class InicioComponent implements OnInit {
       .subscribe(
         (response)=>{
           console.log("Response:",response);
-
           console.log(response.json());
-
           let respuesta = response.json();
-
           console.log(respuesta.next);
-
           this.planetas = respuesta.results;
-
-
-
         },
         (error)=>{
           console.log("Error:",error);
@@ -90,18 +81,25 @@ export class InicioComponent implements OnInit {
         ()=>{
           console.log("Finally");
         }
-
-      )
+      );
   }
-
 }
 
+interface PlanetaStarWars {
 
-interface PlanetaStarWars{
-  name:string,
+  name: string;
+  rotation_period: number;
+  orbital_period: number;
+  diameter: number;
+  climate: string;
+  gravity: string;
+  terrain: string;
+  surface_water: number;
+  population: number;
+
+  created: string;
+  edited: string;
+  url: string;
 }
-
-
-
 
 
