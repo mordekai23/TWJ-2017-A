@@ -11,7 +11,8 @@ export class InicioComponent implements OnInit {
 
   nombre: string = "Adrian";
 
-  planetas : PlanetaStarWars;
+  planetas : PlanetaStarWars[] = [];
+  //planetas2 : Array<PlanetaStarWars> = [];
 
 
   //command + a  y luego command command+alt+l
@@ -42,8 +43,11 @@ export class InicioComponent implements OnInit {
     //PERO EL COMPONENTE NO ESTA LISTO!!!!
   }
 
+  @Input planeta:
+
   ngOnInit() {
     //Esta listo el componente
+    console.log(`El vaor de planeta es: ${this.planetas}`})
   }
 
   cambiarNombre(): void {
@@ -74,6 +78,13 @@ export class InicioComponent implements OnInit {
           let respuesta = response.json();
           console.log(respuesta.next);
           this.planetas = respuesta.results;
+
+          this.planetas = this.planetas.map(
+            (planeta)=>{
+              planeta.imagenURL = "/assets/img/"+planeta.name+'.jpg';
+              return planeta;
+            }
+          );
         },
         (error)=>{
           console.log("Error:",error);
@@ -85,21 +96,15 @@ export class InicioComponent implements OnInit {
   }
 }
 
-interface PlanetaStarWars {
 
-  name: string;
-  rotation_period: number;
-  orbital_period: number;
-  diameter: number;
-  climate: string;
-  gravity: string;
-  terrain: string;
-  surface_water: number;
-  population: number;
 
-  created: string;
-  edited: string;
-  url: string;
-}
+
+
+
+
+
+
+
+
 
 
