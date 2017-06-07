@@ -10,7 +10,8 @@ import 'rxjs/add/operator/map';
 export class InicioComponent implements OnInit {
 
   nombre: string = "Adrian";
-
+  usuarios:UsuarioClass[] = [];
+  nuevoUsuario:UsuarioClass = new UsuarioClass("");
   planetas : PlanetaStarWars[] = [];
   //planetas2 : Array<PlanetaStarWars> = [];
 
@@ -43,11 +44,24 @@ export class InicioComponent implements OnInit {
     //PERO EL COMPONENTE NO ESTA LISTO!!!!
   }
 
-  @Input planeta:
+
 
   ngOnInit() {
     //Esta listo el componente
-    console.log(`El vaor de planeta es: ${this.planetas}`})
+    //console.log(`El vaor de planeta es: ${this.planetas}`);
+    //console.log('Nuevo Usuario: ')
+  this._http
+    .get("http://localhost:1337/Usuario")
+    .subscribe(
+      respuesta=>{
+        let rjson:UsuarioClass = respuesta.json();
+        this.usuarios = rjson;
+        console.log("Usuario: ",this.usuarios)
+      },
+      error=>{
+        console.log("Error",error)
+      }
+    )
   }
 
   cambiarNombre(): void {
@@ -94,7 +108,37 @@ export class InicioComponent implements OnInit {
         }
       );
   }
+
+  crearUsuario(){
+    console.log("Entro a crear usuario");
+
+    this._http
+      .post("http://localhost:1337/Usuario",this.nuevoUsuario)
+      .subscribe(
+        respuesta=>{
+          let respuestaJson = respuesta.json();
+          console.log('respuestaJson: ',respuestaJson);
+        },
+        error=>{
+          console.log('error',error)
+        }
+      )
+  }
+
 }
+
+  class UsuarioClass {
+  nombre:string;
+  constructor(nombre?:string){
+    this.nombre=nombre;
+  }
+
+
+
+}
+
+
+
 
 
 
